@@ -1,3 +1,5 @@
+<?php
+
 function uniToZg($output)
 {
 	$output = preg_replace('/၎င်း/u', '၎', $output);							//၎င်း
@@ -122,3 +124,5 @@ function hexDecode($str){
 	
 	return str_replace($hex,$uni,$str);
 }
+
+?>
